@@ -1,3 +1,6 @@
 sqlalchemy
 alembic
 fastapi
+uvicorn
+pydantic
+strawberry-graphql
