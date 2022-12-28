@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "server_side"
+version = "0.1.0"
+description = "Side Project"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python"
+]
+dependencies = [
+    "sqlalchemy",
+    "alembic",
+    "fastapi",
+    "pydantic",
+    "strawberry-graphql"
+]
